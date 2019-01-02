@@ -6,13 +6,15 @@ import { ListaComponent } from './lista/lista.component';
 import { VideoComponent } from './video/video.component';
 import { HomeComponent } from './home/home.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { FotosComponent } from './fotos/fotos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'mensagem', component: MensagemComponent},
   {path: 'lista', component: ListaComponent},
   {path: 'video', component: VideoComponent},
-  {path: 'noticias', component: NoticiasComponent}
+  {path: 'noticias', component: NoticiasComponent},
+  {path: 'fotos', component: FotosComponent}
 ];
 
 @NgModule({
