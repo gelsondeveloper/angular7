@@ -11,6 +11,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { NoticiaComponent } from './noticia/noticia.component';
 import { MenuComponent } from './menu/menu.component';
 import { FotosComponent } from './fotos/fotos.component';
+import { PublicidadeComponent } from './publicidade/publicidade.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FotosComponent } from './fotos/fotos.component';
     NoticiasComponent,
     NoticiaComponent,
     MenuComponent,
-    FotosComponent
+    FotosComponent,
+    PublicidadeComponent
   ],
   imports: [
     BrowserModule,
