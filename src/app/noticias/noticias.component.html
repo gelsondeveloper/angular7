@@ -3,15 +3,8 @@
 </div>
 
 <ul>
-  <li><app-noticia></app-noticia></li>
-  <li>
-    <app-noticia></app-noticia>
-  </li>
-  <li>
-    <app-noticia></app-noticia>
-  </li>
-  <li>
-    <app-noticia></app-noticia>
+  <li *ngFor="let noticia of noticias">
+    <app-noticia *ngIf="noticia.activo" [noticia]="noticia"></app-noticia>
   </li>
 </ul>
 

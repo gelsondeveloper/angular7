@@ -1,17 +1,5 @@
 <ul>
-  <li>
-    <a href="/">Home</a>
-  </li>
-  <li>
-    <a href="/noticias">Notícias</a>
-  </li>
-  <li>
-    <a href="/video">Vídeo</a>
-  </li>
-  <li>
-    <a href="/lista">Lista</a>
-  </li>
-  <li>
-    <a href="/fotos">Fotos</a>
+  <li *ngFor="let menu of menus">
+    <a [routerLink]="[menu.link]" routerLinkActive="active">{{ menu.label }}</a>
   </li>
 </ul>
