@@ -3,10 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MensagemComponent } from './mensagem/mensagem.component';
+import { ListaComponent } from './lista/lista.component';
+import { VideoComponent } from './video/video.component';
+import { HomeComponent } from './home/home.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { NoticiaComponent } from './noticia/noticia.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MensagemComponent,
+    ListaComponent,
+    VideoComponent,
+    HomeComponent,
+    NoticiasComponent,
+    NoticiaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

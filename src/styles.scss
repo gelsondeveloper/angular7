@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+$tema1:#ffffff;
+$tema2:#000000;
+
+body{
+	background-color: $tema1;
+	h1,h2{
+		color: $tema2;
+	}
+}
