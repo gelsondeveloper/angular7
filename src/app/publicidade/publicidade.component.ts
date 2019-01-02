@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-publicidade',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./publicidade.component.scss']
 })
 export class PublicidadeComponent implements OnInit {
+  @Input() imagem: string;
 
   constructor() { }
 
