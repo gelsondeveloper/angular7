@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PublicidadeComponent implements OnInit {
   @Input() imagem: string;
+  @Input() ligacao: string;
 
   constructor() { }
 
